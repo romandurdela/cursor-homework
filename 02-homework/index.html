@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>02-HOMEWORK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>First name</th>
+            <th>Second name</th>
+            <th>Phone number</th>
+            <th>Email</th>    
+        </tr>
+        <tr>
+            <td>Mac</td>
+            <td>Miller</td>
+            <td>+380962039250</td>
+            <td>macmiller@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kendrick</td>
+            <td>Lamar</td>
+            <td>+380964592147</td>
+            <td>kendot@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kanye</td>
+            <td>West</td>
+            <td>+380964222156</td>
+            <td>kanye@west.com</td>
+        </tr>
+        <tr>
+            <td>Donald</td>
+            <td>Glover</td>
+            <td>+380962039244</td>
+            <td>donglover@gmail.com</td>
+        </tr>
+        
+    </table>
+    <form action="#">
+        <div>
+            <p>Enter your personal data:</p>
+            <label for="fname">First name</label><br>
+            <input type="text" name="fname" placeholder="First name"> <br>
+            <label for="fname">Second name</label><br>
+            <input type="text" name="sname" placeholder="Second name"> <br>
+        </div>
+        <div>
+        <p>Choose gender:</p>
+             <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label> <br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br>
+        </div>
+        <div>
+            <p>Your comment:</p>
+            <textarea name="comment" cols="33" rows="7" placeholder="Put your comment here"></textarea>
+        </div>
+        <div>
+            <p>Where are you from?</p>
+        <select name="city" id="city">
+            <option value="" selected disabled>Select your city</option>
+            <option value="lviv">Lviv</option>
+            <option value="kyiv">Kyiv</option>
+            <option value="odesa">Odesa</option>
+            <option value="ternopil">Ternopil</option>
+        </select>
+        </div>
+        <div>
+            <p>What is your preferable language?</p>
+            <input type="checkbox" id="lang1" name="lang1" value="uk">
+            <label for="lang1">Ukrainian</label><br>
+            <input type="checkbox" id="lang2" name="lang2" value="en">
+            <label for="lang2">English</label><br>
+            <input type="checkbox" id="lang3" name="lang3" value="es">
+            <label for="lang3">Spanish</label><br>
+            <input type="checkbox" id="lang4" name="lang4" value="fr">
+            <label for="lang4">French</label><br>
+        </div>
+        <div>
+            <button type="submit">Finish</button>
+        </div>
+    </form>
+        
+</body>
+</html>
