@@ -24,7 +24,7 @@ textarea{
     background-color: #EDF5E1;
     border: #05386B solid 2px;
     border-radius: 6px;
-    cursor: text
+    cursor: text;
     font-family: 'Roboto Condensed', sans-serif;
 }
 input[type=text], select{
