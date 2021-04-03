@@ -1,0 +1,445 @@
+/* CSS reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF; 
+
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: #ED4C5C;
+}
+
+.header-content{
+    max-width: 1000px;
+
+}
+.header-title{
+    position: absolute;
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;   
+}
+
+.header-text{
+    position: absolute;
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.images{
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 735px;
+    top: 94px;
+    
+}
+.img-header{
+    position: absolute;
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+    margin-left: 70px;
+}
+.store-logos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+
+
+.logo{
+    /* display: flex; */
+   justify-content: center;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;    
+    margin-left: 20px;
+}
+
+.main{   
+    display: flex;
+    width: 100%;
+    height: 500px;
+    top: 500px;
+}
+
+.main-contact{
+    position: absolute;
+    width: 445px;
+    height: 107px;
+    left: 176px;
+    top: 617px;
+
+}
+h1{
+    color: black;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+.main-contact-text{
+    position: absolute;
+    width: 434px;
+    height: 64px;
+    left: 176px;
+    top: 713px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    color: black;
+}
+.forms{
+    position: absolute;
+    width: 540px;
+    height: 305px;
+    left: 810px;
+    top: 617px;
+    outline:none
+}
+
+.inputs{
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 21px 0 20px 31px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;   
+}
+
+.first-name{
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 617px;
+    margin-right: 25px;
+    
+}
+.last-name{
+    width: 255px;
+    height: 60px;
+    left: 1020px;
+    top: 617px;
+}
+
+.phone-num{
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 701px;
+    margin-top: 25px;
+}
+
+.service-options{
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 785px;
+    margin-top: 25px;
+}
+
+.select-style{
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 21px 0 20px 31px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    -webkit-appearance:none; 
+    appearance:none;
+    background-image: url(images/ChevronDown.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 98%;
+
+
+}
+
+.submit-btn{
+    width: 160px;
+    height: 50px;
+    left: 735px;
+    top: 872px;
+    margin-top: 25px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+}
+.group-address{
+    position: relative;
+    width: 259px;
+    height: 264px;
+    left: 161px;
+    top: 85px;
+
+}
+h3{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+.address-title{
+    width: 65px;
+    height: 22px;
+    left: 166px;
+}
+.address-body{
+    width: 254px;
+    height: 54px;
+    left: 166px;  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+    margin-top: 40px;
+}
+.copyright{
+    width: 155px;
+    height: 14px;
+    left: 161px; 
+    margin-top: 150px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
+.services{
+    position: absolute;
+    width: 259px;
+    height: 264px;
+    left: 460px;
+    top: 85px;
+
+}
+.services-title{
+    width: 67px;
+    height: 22px;
+    left: 450px;
+    top: 1130px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+.services-body{
+    width: 254px;
+    height: 114px;
+    left: 450px;
+    top: 1180px;
+    margin-top: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000; 
+}
+.list{
+    text-decoration: none;
+    color: #000000;
+}
+.contact{
+    position: absolute;
+    width: 122px;
+    height: 128px;
+    left: 734px;
+    top: 85px;    
+}
+
+.contact-title{
+    width: 101px;
+    height: 22px;
+    left: 734px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+.contact-mail{
+    width: 122px;
+    height: 14px;
+    left: 734px;
+    margin-top: 55px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
+ .no-link-decor{
+    text-decoration: none;
+    color: #000000;
+ }
+
+ .contact-number{
+    width: 96px;
+    height: 14px;
+    left: 734px;
+    margin-top: 11px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #121212;
+ }
+ .social{
+    display: flex;
+    width: 66px;
+    height: 14px;
+    left: 734px;
+    margin-top: 25px;  
+    justify-content: center; 
+ }
+ .social-icons{
+    margin-right: 8px;
+ }
+
+.billing-info{
+    position: absolute;
+    width: 259px;
+    height: 128px;
+    left: 460px;
+    top: 85px;
+    left: 1022px;
+   
+}
+ .billing-info-title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+ }
+.payment-methods{
+    width: 216px;
+    height: 31px;
+    left: 1028px;
+    margin-top: 25px;  
+}
