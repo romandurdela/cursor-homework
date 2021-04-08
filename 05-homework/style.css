@@ -112,9 +112,7 @@ body{
 .demo-btn>img{
     margin-left: 27px;
 }
-.main{
-    /* margin-bottom: 150px; */
-}
+
 .info-block1{
     width: 1120px;
     height: 500px;
@@ -221,11 +219,9 @@ img{
 }
 .features-block-content{
     width: 1136.85px;
-    /* height: 1002.06px; */
     margin: 0 auto;
     left: 220px;
     top: 1613px;
-    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -238,22 +234,19 @@ img{
     font-weight: bold;
     font-size: 40px;
     line-height: 130%;
-    /* identical to box height, or 52px */
     color: #212353;
-    /* display: flex; */
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
 }
+
 .features-title-text{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    /* or 29px */
     text-align: center;
-    /* 1 */
     color: #4B5D68;
     margin-bottom: 100px;
 }
@@ -262,24 +255,25 @@ img{
     display: grid;
     width: 519.27px;
     height: 355px;
-    /* grid: 520px / auto auto auto; */
     grid-template-columns: 1fr 1fr;
     column-gap: 23px;
     
 }
+
 .feature-content{
     display: grid;
 }
+
 .feature-title{
     font-family: Barlow;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 130%;
-    /* margin-bottom: 20px; */
     align-items: center;
     color: #212353;
 }
+
 .feature-text{
     font-family: Montserrat;
     font-style: normal;
@@ -287,8 +281,8 @@ img{
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
-    /* margin-bottom: 20px; */
 }
+
 .feature-link{
     font-family: Montserrat;
     font-style: normal;
@@ -300,10 +294,10 @@ img{
     color: #212353;
     text-decoration: none;
 }
+
 .testimoials{
     margin: 0 auto;
     width: 1118px;
-    /* height: 709px; */
     left: 242px;
     top: 2789px;
     background: #9C69E2;
@@ -311,10 +305,9 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     margin-bottom: 150px;
-
 }
+
 .testimonials-title{
     font-family: Barlow;
     font-style: normal;
@@ -325,6 +318,7 @@ img{
     color: #FFFFFF;
     margin-top: 109px;
 }
+
 .testimonials-comment{
     background: white;
     padding: 10%;
@@ -338,23 +332,24 @@ img{
     grid-template-columns: 30% 70%;
     justify-items: start;
 }
+
 .user-image{
     width: 132.42px;
     height: 90px;  
 }
+
 .user-name{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 160%;
-    /* identical to box height, or 29px */
     display: flex;
     align-items: center;
     letter-spacing: 0.005em;
-    /* 2 */
     color: #212353;
 }
+
 .user-company-link{
     text-decoration: none;
     font-family: Montserrat;
@@ -362,13 +357,12 @@ img{
     font-weight: 500;
     font-size: 14px;
     line-height: 160%;
-    /* or 22px */
     display: flex;
     align-items: center;
     letter-spacing: 0.01em;
-    /* 3 */
     color: #9C69E2;
 }
+
 .user-comment{
     font-family: Montserrat;
     font-style: normal;
@@ -423,11 +417,11 @@ img{
     font-weight: bold;
     font-size: 40px;
     line-height: 130%;
-    /* identical to box height, or 52px */
     display: flex;
     align-items: center;
     color: #212353;
 }
+
 .try-block-text{
     width: 584px;
     height: 29px;
@@ -438,32 +432,34 @@ img{
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    /* identical to box height, or 29px */
-    /* 1 */
     color: #4B5D68;
     margin-top: 20px;
 }
 .learn-more-btn{
     background-color: #F063B8;
     margin: 0;
-
 }
 .request-demo-footer{
     margin-left: 30px;
 }
+
 .footer{
     margin: 0 auto;
     max-width: 1250px;
 }
+
 .footer-info{
     display: flex;
 }
+
 .footer-column1{
     margin-right: 120px
 }
+
 .footer-column{
     margin: 0 50px;
 }
+
 .company-name{
     font-family: Montserrat;
     font-style: normal;
@@ -477,6 +473,7 @@ img{
 .footer-logo{
     display: flex;
 }
+
 .company-address{
     margin-top: 67px;
     margin-bottom: 10px;
@@ -489,6 +486,7 @@ img{
     color: #212353;
 
 }
+
 .mail{
     font-family: Montserrat;
     font-style: normal;
@@ -508,6 +506,7 @@ img{
     letter-spacing: 0.01em;
     color: #212353;
 }
+
 .copyright{
     margin-top: 120px;
     font-family: Montserrat;
@@ -520,6 +519,7 @@ img{
     letter-spacing: 0.01em;
     color: #212353;
 }
+
 .footer-title{
     margin-bottom: 30px;
     font-family: Montserrat;
@@ -529,6 +529,7 @@ img{
     line-height: 160%;
     color: #212353;
 }
+
 .nav-link-footer{
     font-family: Montserrat;
     font-style: normal;
@@ -541,19 +542,23 @@ img{
 a{
     text-decoration: none;
 }
+
 .messanger{
     right: 2%;
     bottom: 10%;
     position: fixed;
 }
+
 a:hover{
     color: #F063B8;
 }
+
 .demo-btn:hover{
     box-shadow: 0px 5px 5px rgb(75 93 104 / 50%);
     background-color: #F063B8;
     color: #FFFFFF;
 }
+
 .headline-btn:hover{
     box-shadow: 0px 5px 5px rgb(75 93 104 / 50%);
     background-color: #FFFFFF;
