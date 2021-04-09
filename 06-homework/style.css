@@ -50,6 +50,7 @@ body{
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 .btn_conteiner{
@@ -77,4 +78,8 @@ body{
     border-top: 2px solid #C4C4C4;
     border-bottom: 2px solid #C4C4C4;
     margin-left: 50px;
+}
+
+.btn:hover{
+    background-color: aquamarine;
 }
