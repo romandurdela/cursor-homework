@@ -564,3 +564,6 @@ a:hover{
     background-color: #FFFFFF;
     color: #212353;
 }
+button{
+    outline: none;
+}
