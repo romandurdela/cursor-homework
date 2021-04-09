@@ -217,6 +217,13 @@ h1{
     margin-top: 25px;
 }
 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
+}
 .service-options{
     width: 540px;
     height: 60px;
@@ -242,8 +249,7 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 98%;
-
-
+    outline: none;
 }
 
 .submit-btn{
@@ -444,4 +450,7 @@ h3{
     height: 31px;
     left: 1028px;
     margin-top: 25px;  
+}
+input {
+    outline:none;
 }
