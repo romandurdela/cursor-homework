@@ -51,9 +51,11 @@ img{
     border-radius: 4px;
     height: 20px;
     background-image: url(magnifier.svg);
-    background-size: 20px;
+    background-blend-mode: soft-light;
+    background-size: 16px;
     background-repeat: no-repeat;
-    padding-left: 30px;
+    background-position-y: center;
+    padding-left: 19px;
 }
 
 ::-webkit-input-placeholder{
@@ -61,4 +63,7 @@ img{
 }
 .search{
     float: right;
+}
+.magnifier{
+    position: relative;
 }
