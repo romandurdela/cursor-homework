@@ -450,6 +450,7 @@ img{
 
 .footer-info{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .footer-column1{
