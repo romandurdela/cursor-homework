@@ -348,7 +348,6 @@ h3{
 .stats-cards{
 	display: flex;
     align-items: center;
-    justify-content: space-between;
     margin: 5% 0;
 }
 
@@ -358,7 +357,11 @@ h3{
     display: flex;
     align-items: center;
     height: 123px;
-    width: 250px;
+	width: 250px;
+}
+
+.courses-card-margin{
+	margin-right: 10%;
 }
 
 .courses-card>p{
