@@ -59,6 +59,7 @@ header{
     /* min-height: 665px; */
     display: flex;
     align-items: center;
+    padding-bottom: 4em;
 }
 
 .header-title{
@@ -92,7 +93,7 @@ header{
 }
 
 .logo{
-    margin-bottom: 10em;
+    margin-bottom: 8em;
 }
 
 .market-places{
@@ -100,9 +101,10 @@ header{
     margin-bottom: 2em;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1020px){
     header{
         background-image: none;
+        padding-bottom: 1em;
     }
     .header-content{
         align-items: center;
@@ -245,9 +247,130 @@ p{
     .left-description-wrapper{
         align-items: initial;
     }
-    .wrapper-wrapper {
-        margin-top: ;
-    }
     
 }
 
+.text-block-margin{
+    padding-left: 6em;
+    padding-bottom: 6em;
+}
+
+@media (max-width: 1020px){
+    .text-block-margin{
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 719px){
+    .text-block-margin{
+        padding-left: 0;
+    }
+}
+
+.user-friendly-interface{
+    background-image: url(images/bg-phone.png);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-size: cover;
+}
+
+@media (max-width: 1020px){
+    .user-friendly-interface{
+        background-image: none;
+    }
+}
+
+.phone-img{
+
+}
+
+.app-image{
+    width: 100%;
+    display: none;
+}
+
+@media (max-width: 1020px){
+    .app-image{
+        display: block;
+        height: 100%;
+    }
+}
+
+.app-features{
+    height: 735px;
+    background: #00ADEE;
+    background-image: url(images/bg-feature.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+
+.app-features-title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+    padding: 3em 0;
+}
+
+.feature-text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 1em;
+}
+
+.feature{
+    width: 29%;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.features-wrapper{
+    width: 80%;
+    display: flex;
+}
+
+@media (max-width: 1020px){
+    .app-features{
+        background: #FAFAFA;
+    }
+    .features-container{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .feature{
+        width: 100%;
+        margin-right: 0;
+    }
+    .feature-text{
+        color: #4F4F4F;
+    }
+    .app-features-title{
+        color: #4F4F4F;
+        text-align: center;
+    }
+    .feature path{
+        fill: #00adee;
+    }
+}
